@@ -1,3 +1,51 @@
+
 body{
 	background-color: #ffdb5e;
+	margin: 0;
+	padding: 0;
+}
+
+.style_liens{
+	position: absolute;
+	top: 0;
+	right: 0;
+	list-style-type: none;
+}
+
+li{
+	display: inline-block;
+	padding: 0 20px;
+	text-align: center;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family: Courier New;
+	font-size: 16px;
+}
+.nav{
+	font-size: 13px;
+	border: solid rgba(0, 0, 0, 0.2);
+	border-width: 0 0 1px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+.about{
+	background: url(../img/about.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+}
+
+.logo{
+	background: url(../img/fbba-logo.png) no-repeat;
+	position: fixed;
+	height: 100px;
+	width: 330px;
+	background-size: contain;
+	background-position: unset;
 }
