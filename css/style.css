@@ -1,6 +1,6 @@
 
 body{
-	background-color: #ffdb5e;
+	background-color: white;
 	margin: 0;
 	padding: 0;
 }
@@ -20,10 +20,14 @@ li{
 }
 a{
 	text-decoration: none;
-	color: white;
+	color: green;
 	font-family: Courier New;
-	font-size: 16px;
+	font-size: 17px;
 }
+a:hover {
+    color: black;
+}
+
 .nav{
 	font-size: 13px;
 	border: solid rgba(0, 0, 0, 0.2);
@@ -32,20 +36,73 @@ a{
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.25);
+	background-color: white;
+	height: 42px;
 }
 .about{
 	background: url(../img/about.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 800px;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+	position: static;
+	top: 0;
+	left: 0;
+	height: 700px;
+	width: 100%;
 }
 
 .logo{
 	background: url(../img/fbba-logo.png) no-repeat;
-	position: fixed;
-	height: 100px;
-	width: 330px;
 	background-size: contain;
 	background-position: unset;
+	position: fixed;
+	height: 125px;
+	width: 330px;
+
 }
+
+.resu{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 60px;
+	color: green;
+	font-size: 30px;
+	padding: 10px 45px;
+	margin-top: -130px;
+	margin-left: 245px;
+	margin-right: 20px;
+}
+
+.citation{
+	position: relative;
+	top: -555px;
+	right: -725px;
+	width: 170px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 50px;
+	color: green;
+	background-color: rgba(255, 255, 255, 0.7);
+	font-size: 16px;
+	padding: 5px 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
